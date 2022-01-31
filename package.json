@@ -1,8 +1,10 @@
 {
+  "private": true,
   "scripts": {
     "start": "webpack serve",
     "watch": "webpack --watch",
-    "build": "webpack"
+    "build": "NODE_ENV=production webpack",
+    "build-dev": "webpack"
   },
   "devDependencies": {
     "webpack": "^5.68.0",
